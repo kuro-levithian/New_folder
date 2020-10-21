@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Burger</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="img/pepsi-226305.png." width="125px">
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <img src="img/shopping.png" alt="" width="30px" height="30px">
+          <img src="img/icon-menu.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Best Food in town<br>Premiere!!!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident.</p>
+            <a href="#" class="btn btn-primary">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="img/our-story-1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Feature-->
+<div class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="img/hamburger.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="img/hamburger.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="img/hamburger.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+    </div>
+  </div>
+<!--Feature product end-->
+
+<!--Latest product-->
+<div class="small-container">
+  <h2 class="title">Latest Products</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500</p>
+    </div>
+  </div>
+</div>
+<!--Latest product ends-->
+
+<!--Offer-->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/corn.jpg" alt="" class="offer-img">
+        </div>
+        <div class="col-2">
+          <p>Exclusive</p>
+          <h1>Better Food</h1>
+          <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</small>
+          <br>
+          <a href="#" class="btn btn-primary">Explore Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--testimonial-->
+<div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="img/Ramsay.jpg" alt="">
+          <h3>Gordon Ramsay</h3>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="img/Ramsay.jpg" alt="">
+          <h3>Gordon Ramsay</h3>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="img/Ramsay.jpg" alt="">
+          <h3>Gordon Ramsay</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Brands-->
+
+<section class="chef" id="chef">
+  <div class="container">
+    <div class="section-heading my-5 text-center">
+      <h2 class="title">Our Chefs</h2>
+    </div>
+    <div class="row text-center">
+      <div class="col-12 col-md-4">
+        <img class="img-fluid" src="img/our-story-1.jpg" alt="" data-aos="fade-right">
+        <div class="card-body">
+          <h1>Mr Bean</h1>
+          <h6>Chef</h6>
+          <p>Burger chef</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <img class="img-fluid" src="img/our-story-1.jpg" alt="" data-aos="fade-up">
+        <div class="card-body">
+          <h1>Mr Bean</h1>
+          <h6>Chef</h6>
+          <p>Burger chef</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <img class="img-fluid" src="img/our-story-1.jpg" alt="" data-aos="fade-left">
+        <div class="card-body">
+          <h1>Mr Bean</h1>
+          <h6>Chef</h6>
+          <p>Burger chef</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Where to find us</h3>
+          <p>196/168/1/1/HCM</p>
+        </div>
+        <div class="footer-col-2">
+          <img src="img/pepsi-226305.png" alt="">
+          <p>You eat we care</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful tip</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blocks</li>
+            <li>Policy</li>
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Foody</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--JS Script-->
+<script type="text/javascript">
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px"){
+      MenuItems.style.maxHeight = "200px";
+    }
+    else {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+  </body>
+</html>

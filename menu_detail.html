@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Menu_detail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="img/pepsi-226305.png." width="125px">
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <img src="img/shopping.png" alt="" width="30px" height="30px">
+          <img src="img/icon-menu.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+      </div>
+
+<!--Single product details-->
+
+<div class="small-container single-product">
+  <div class="row">
+    <div class="col-2">
+      <img src="img/hamburger.jpg" alt="" id="product-img">
+      <div class="small-img-row">
+        <div class="small-img-col">
+          <img src="img/bread.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="img/hamburger.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="img/hamburger.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="img/hamburger.jpg" width="100%" class="small-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2">
+      <p>Menu/Burger</p>
+      <h1>Chiken Burger</h1>
+      <h4>50$</h4>
+      <select class="" name="">
+        <option value="">Select Size</option>
+        <option value="">Large</option>
+        <option value="">Medium</option>
+        <option value="">Small</option>
+      </select>
+      <input type="number" name="" value="1">
+      <a href="#" class="btn btn-secondary">Add to cart</a>
+      <h3>Product details <i class="fa fa-indent"></i>
+      </h3>
+      <br>
+      <p>Burger for every ong who want to enjoy good taste</p>
+    </div>
+  </div>
+</div>
+
+<!--Title-->
+<div class="small-container">
+  <div class="row row-2">
+    <h2>Related Products</h2>
+    <p><a href="#">View more</a> </p>
+  </div>
+</div>
+
+<!--Product-->
+<div class="small-container">
+  <div class="row">
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>$500</p>
+    </div>
+    <div class="col-4">
+      <img src="img/hamburger.jpg" alt="">
+      <h4>Beef Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Where to find us</h3>
+          <p>196/168/1/1/HCM</p>
+        </div>
+        <div class="footer-col-2">
+          <img src="img/pepsi-226305.png" alt="">
+          <p>You eat we care</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful tip</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blocks</li>
+            <li>Policy</li>
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Foody</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+var MenuItems = document.getElementById("MenuItems");
+MenuItems.style.maxHeight = "0px";
+function menutoggle(){
+  if(MenuItems.style.maxHeight == "0px"){
+    MenuItems.style.maxHeight = "200px";
+  }
+  else {
+    MenuItems.style.maxHeight = "0px";
+  }
+}
+  var ProductImg = document.getElementById("product-img");
+  var SmallImg = document.getElementByClass("small-img");
+
+  SmallImg[0].onclick = function(){
+    ProductImg.source = SmallImg[0].source;
+  }
+  SmallImg[1].onclick = function(){
+    ProductImg.source = SmallImg[1].source;
+  }
+  SmallImg[2].onclick = function(){
+    ProductImg.source = SmallImg[2].source;
+  }
+  SmallImg[3].onclick = function(){
+    ProductImg.source = SmallImg[3].source;
+  }
+</script>
+  </body>
+</html>

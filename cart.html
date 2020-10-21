@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Cart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="img/pepsi-226305.png." width="125px">
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <img src="img/shopping.png" alt="" width="30px" height="30px">
+          <img src="img/icon-menu.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+      </div>
+
+      <!--Cart item detail-->
+      <div class="small-container">
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+          <tr>
+            <td><div class="cart-info">
+              <img src="img/hamburger.jpg" alt="">
+              <div class="">
+                <p>Chicken Burger</p>
+                <small>Price: $50</small>
+                <br>
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+            <td><input type="number" value="1"></td>
+            <td>50$</td>
+          </tr>
+          <tr>
+            <td><div class="cart-info">
+              <img src="img/hamburger.jpg" alt="">
+              <div class="">
+                <p>Chicken Burger</p>
+                <small>Price: $50</small>
+                <br>
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+            <td><input type="number" value="1"></td>
+            <td>50$</td>
+          </tr>
+          <tr>
+            <td><div class="cart-info">
+              <img src="img/hamburger.jpg" alt="">
+              <div class="">
+                <p>Chicken Burger</p>
+                <small>Price: $50</small>
+                <br>
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+            <td><input type="number" value="1"></td>
+            <td>50$</td>
+          </tr>
+          </table>
+
+          <div class="total-price">
+            <table>
+              <tr>
+                <td>Subtotal</td>
+                <td>$200</td>
+              </tr>
+              <tr>
+                <td>Tax</td>
+                <td>$35</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>$200</td>
+              </tr>
+            </table>
+          </div>
+      </div>
+
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col-1">
+                <h3>Where to find us</h3>
+                <p>196/168/1/1/HCM</p>
+              </div>
+              <div class="footer-col-2">
+                <img src="img/pepsi-226305.png" alt="">
+                <p>You eat we care</p>
+              </div>
+              <div class="footer-col-3">
+                <h3>Useful tip</h3>
+                <ul>
+                  <li>Coupons</li>
+                  <li>Blocks</li>
+                  <li>Policy</li>
+                  <li>About us</li>
+                </ul>
+              </div>
+              <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Instagram</li>
+                  <li>Foody</li>
+                  <li>Twitter</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script type="text/javascript">
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+          }
+          else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+  </body>
+</html>

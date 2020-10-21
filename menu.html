@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="img/pepsi-226305.png." width="125px">
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <img src="img/shopping.png" alt="" width="30px" height="30px">
+          <img src="img/icon-menu.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+      </div>
+
+<!--Feature-->
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>All products</h2>
+      <select class="" name="">
+        <option value="">Default Shorting</option>
+        <option value="">Short by price</option>
+        <option value="">Short by popularity</option>
+        <option value="">Short by rating</option>
+        <option value="">Short by sale</option>
+      </select>
+    </div>
+    <div class="row" id="row-1">
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/hamburger.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+    </div>
+    <div class="row" id="row-2">
+      <div class="col-4">
+        <img src="img/bread.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/bread.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/bread.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/bread.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+    </div>
+    <div class="row" id="row-3">
+      <div class="col-4">
+        <img src="img/corn.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/corn.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/corn.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/corn.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+    </div>
+    <div class="row" id="row-4">
+      <div class="col-4">
+        <img src="img/our-story-1.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/our-story-1.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/our-story-1.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$500</p>
+      </div>
+      <div class="col-4">
+        <img src="img/our-story-1.jpg" alt="">
+        <h4>Beef Burger</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$500</p>
+      </div>
+    </div>
+
+
+
+    <div class="menu-btn">
+      <a class="btn btn-menu" id="btn-burger" onclick="burger_toggle">Burger</a>
+      <a class="btn btn-menu" id="btn-chicken" onclick="chicken_toggle">Chicken</a>
+      <a  class="btn btn-menu" id="btn-drink" onclick="drink_toggle">Drinks</a>
+      <a class="btn btn-menu" id="btn-other" onclick="other_toggle">Others</a>
+      <a class="btn btn-menu">&#8594;</a>
+    </div>
+
+  </div>
+<!--Feature product end-->
+
+<!--Footer-->
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Where to find us</h3>
+          <p>196/168/1/1/HCM</p>
+        </div>
+        <div class="footer-col-2">
+          <img src="img/pepsi-226305.png" alt="">
+          <p>You eat we care</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful tip</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blocks</li>
+            <li>Policy</li>
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Foody</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--JS Script-->
+<script type="text/javascript">
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px"){
+      MenuItems.style.maxHeight = "200px";
+    }
+    else {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+  var row_01 = document.getElementById("row-1");
+  var row_02 = document.getElementById("row-2");
+  var row_03 = document.getElementById("row-3");
+  var row_04 = document.getElementById("row-4");
+
+  function burger_toggle(){
+    row_01.style.opacity = 1;
+    row_02.style.opacity = 0;
+    row_03.style.opacity = 0;
+    row_04.style.opacity = 0;
+  }
+
+  function chicken_toggle(){
+    row_01.style.opacity = 0;
+    row_02.style.opacity = 1;
+    row_03.style.opacity = 0;
+    row_04.style.opacity = 0;
+  }
+
+  function drink_toggle(){
+    row_01.style.opacity = 0;
+    row_02.style.opacity = 0;
+    row_03.style.opacity = 1;
+    row_04.style.opacity = 0;
+  }
+
+  function other_toggle(){
+    row_01.style.opacity = 0;
+    row_02.style.opacity = 0;
+    row_03.style.opacity = 0;
+    row_04.style.opacity = 1;
+  }
+</script>
+  </body>
+</html>
